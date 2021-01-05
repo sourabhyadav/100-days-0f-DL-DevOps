@@ -46,3 +46,5 @@ print (a[...,1:])             # this can be read as [all rows (1st dime), column
 print("Upper 2x2 matrix: ", a[:2, :2])          # this can be read as [0:2:1, 0:2:1]
 print("Lower 2x2 matrix: ", a[1:, 1:])          # this can be read as [1:end:1, 1:end:1]
 print("Read only last column: ", a[...,2])      # this can be read as [0:end:1, 2]
+
+# TODO: Advanced slicing examples required
