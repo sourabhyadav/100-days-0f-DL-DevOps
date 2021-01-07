@@ -26,3 +26,6 @@ for x in np.nditer(a, order = 'C'):         # Row-wise
 print("Row-wise F-Style")
 for x in np.nditer(a, order = 'F'):         # Column-wise
     print(x)
+
+
+# TODO: nditer can be used to modify the values for ndarry in a very short manner
