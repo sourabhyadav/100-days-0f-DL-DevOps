@@ -19,3 +19,7 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Method for chaning shape like reshape, flaten 
 * Method for transpose like tranpose(), a.T, swapazes etc.   
 * Methods for changing dimension and broadcasting like broadcast, broadcast_to etc.
+
+### Day 5: Array manipulation using built-in functions 2  
+* Method for chaning contenate and split  
+* Method for elements and deleting them   
