@@ -24,6 +24,6 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Methods for chaning contenate and split  
 * Methods for elements and deleting them   
 
-### Day 5: Array binary and string operations   
+### Day 6: Array binary and string operations   
 * Methods for binary ops like AND, OR, Shift left/right  
 * Methods for string related operations mostly they are similar to python string ops   
