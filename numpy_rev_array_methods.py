@@ -195,7 +195,7 @@ print("Resize with same size: \n", b, "Shape: ", b.shape)
 b = np.resize(a, (4,4, 2))
 print("Resize with greter size: \n", b, "Shape: ", b.shape)
 '''
-
+'''
 # append: This function adds values at the end of an input array. The append operation is not inplace, a new array is allocated. 
 # Also the dimensions of the input arrays must match otherwise ValueError will be generated.
 # Syantax: numpy.append(arr, values, axis)
@@ -207,3 +207,32 @@ print("Orignial array: \n", a)
 print ("append: \n", np.append(a, [7,8,9]))
 print ("append axis 0: \n", np.append(a, [[7,8,9]],axis = 0))
 print ("append axis 1: \n", np.append(a, [[0,0,0],[7,8,9]],axis = 1))
+'''
+
+'''
+# inserr: This function inserts values in the input array along the given axis and before the given index. If the type of values is converted to be inserted, it is different from the input array. Insertion is not done in place and the function returns a new array. Also, if the axis is not mentioned, the input array is flattened.
+# Syantax: numpy.insert(arr, index, values, axis)
+# index -> index before which the insersetion has to be made
+# valuse -> values to be inserted
+# axis -> The axis along which to insert. If not given, the input array is flattened
+
+x = np.array( [ [1,2,3], [4,5,6] ] )
+y = np.insert(x, 4, [10,11])
+print("Inserted array with no axis: \n", y)
+z = np.insert(x, 1, [10,11, 0], axis = 0)
+print("Inserted array with axis = 0: \n", z)
+z1 = np.insert(x, 1, [10,11], axis = 1)
+print("Inserted array with axis = 1: \n", z1)
+'''
+
+# delete: This function returns a new array with the specified subarray deleted from the input array. As in case of insert() function, if the axis parameter is not used, the input array is flattened. 
+# Syantax: Numpy.delete(arr, index, axis)
+# index -> Can be a slice, an integer or array of integers, indicating the subarray to be deleted from the input array
+# axis -> The axis along which to delete the given subarray. If not given, arr is flattened
+
+a = np.arange(12).reshape(3,4) 
+print ('Array flattened before delete operation as axis not used:') 
+print ("Delete array with no axis: \n", np.delete(a,5))
+print ("delte the element with azis=1: \n", np.delete(a,1,axis = 1)) 
+a = np.array([1,2,3,4,5,6,7,8,9,10]) 
+print ("Delete with  slice: \n, ", np.delete(a, np.s_[::2])) 

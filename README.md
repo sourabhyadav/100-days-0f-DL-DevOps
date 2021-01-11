@@ -16,10 +16,14 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * For iteration we can use nditer function and can also define the C-style(row-wise) and F-style(col-wise)   
 
 ### Day 4: Array manipulation using built-in functions 1  
-* Method for chaning shape like reshape, flaten 
-* Method for transpose like tranpose(), a.T, swapazes etc.   
+* Methods for chaning shape like reshape, flaten 
+* Methods for transpose like tranpose(), a.T, swapazes etc.   
 * Methods for changing dimension and broadcasting like broadcast, broadcast_to etc.
 
 ### Day 5: Array manipulation using built-in functions 2  
-* Method for chaning contenate and split  
-* Method for elements and deleting them   
+* Methods for chaning contenate and split  
+* Methods for elements and deleting them   
+
+### Day 5: Array binary and string operations   
+* Methods for binary ops like AND, OR, Shift left/right  
+* Methods for string related operations mostly they are similar to python string ops   
