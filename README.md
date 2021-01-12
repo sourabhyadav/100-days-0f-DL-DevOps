@@ -26,4 +26,10 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 
 ### Day 6: Array binary and string operations   
 * Methods for binary ops like AND, OR, Shift left/right  
-* Methods for string related operations mostly they are similar to python string ops   
+* Methods for string related operations mostly they are similar to python string ops 
+
+### Day 7: Mathematical, arthematic, statiscal, sorting and searching methods   
+* Methods for mathematical ops like sin, cos, tan , arcsing, etc.  
+* Methods for arthimatic ops like add, subtract, multiply, divide, round, floor, ceil
+* Methods for statistical like mean, median, variance, weighted avg, percentile etc.
+* Methods for sorting and searching like sort, argsort, lexsort, argmax, argmin, where, extract etc. 
