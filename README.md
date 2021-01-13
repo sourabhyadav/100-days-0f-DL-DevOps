@@ -33,3 +33,9 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Methods for arthimatic ops like add, subtract, multiply, divide, round, floor, ceil
 * Methods for statistical like mean, median, variance, weighted avg, percentile etc.
 * Methods for sorting and searching like sort, argsort, lexsort, argmax, argmin, where, extract etc. 
+
+### Day 8: Numpy shallow n deep copy, linear algebra and matplotlib, save and load as .npy    
+* Methods for no copy: '=', for shallow copy: view() and slicing, deep copy: copy().  
+* Methods for linear algebra are dot, cross, inner, etc. 
+* Methods for plotting the graphs in 2-d or 3-d also understood the subgraph concept 
+* Methods for loading and saving ndarrays. By default it saves in .npy format which we cannot read. There is another method to store the nd-array in savetxt and loadtxt methods which are human readable.   
