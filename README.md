@@ -39,3 +39,9 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Methods for linear algebra are dot, cross, inner, etc. 
 * Methods for plotting the graphs in 2-d or 3-d also understood the subgraph concept 
 * Methods for loading and saving ndarrays. By default it saves in .npy format which we cannot read. There is another method to store the nd-array in savetxt and loadtxt methods which are human readable.   
+
+### Day 9: Pytorch basic tensor  
+* Methods related to basic maths in tensor matircs, slicing and broadcasting
+* Tensor conversion from CPU to GPU and GPU ops etc.
+* Converting numpy array to pytorch tensor and vice-versa
+
