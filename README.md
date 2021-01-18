@@ -45,3 +45,7 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Tensor conversion from CPU to GPU and GPU ops etc.
 * Converting numpy array to pytorch tensor and vice-versa
 
+### Day 10: Pytorch backpropagation and autograd utility  
+* Learnt about auto_grad utility to automatically calulate gradients and track/untrack gradients 
+* Apply a dummy training with 4-setp process 1. forward pass(compute loss), 2. Calculate grad(partial derivatives), 3. Backward pass (apply chain rule), 4. Update weights(gradient decent process), 5. Apply optimizer (to update the weights)
+

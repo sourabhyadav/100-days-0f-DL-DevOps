@@ -71,3 +71,4 @@ b = np.array([3,5,7])
 print("mod with scalar: ", np.mod(1, 4))
 print("mod with array elementwise: ", np.mod(a,b))
 print("remainder with elementwise: ", np.remainder(a,b))
+
