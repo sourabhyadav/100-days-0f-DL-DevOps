@@ -31,3 +31,4 @@ print("x: \n", x, " x.shape: ", x.shape)
 # python list to torch tensor
 x = torch.tensor([ [2.4, 19.6, 6], [0.2, 0.5, 0.3] ])
 print("x: \n", x, " x.shape: ", x.shape)
+
