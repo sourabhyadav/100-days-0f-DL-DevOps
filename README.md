@@ -58,3 +58,7 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Learnt about different loss functions for both linear and logistic regrassion
 * Learnt about using datasets from sklearn to use for basic machine learning application
 
+### Day 13: Pytorch DataLoader and Dataset Transform classes  
+* Learnt about how we can inherit our dataset with Dataloader and Dataset methods
+* Learnt about use of dataset transfrom and how we can make custom tranforms and combine transforms using trochvision.transform class 
+
