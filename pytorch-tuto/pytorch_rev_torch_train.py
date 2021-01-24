@@ -28,7 +28,19 @@ input_size = n_features
 output_size = n_features
 
 # Typically this is where the model architecture has to come
-model = nn.Linear(input_size, output_size) # basically a single layer model which is linear regression
+# model = nn.Linear(input_size, output_size) # basically a single layer model which is linear regression
+
+# Create a cutom model for Linear Regression
+class customLinearRegression(nn.Module):
+    def __init__(self, input_dim, output_dim):
+        super(customLinearRegression, self).__init__()
+        # define layers
+        self.lin = nn.Linear(input_dim, output_dim)
+    
+    def forward(self, x):
+        return self.lin(x)
+
+model = customLinearRegression(input_size, output_size)
 
 # loss : MSE
 # def loss(y, y_pred):
@@ -69,6 +81,7 @@ for epoch in range(n_iters):
     # with torch.no_grad():
     #     w -= lr * w.grad
 
+    # Weights update will be done automatically
     optimizer.step()
 
     # zero grad. As by default gardients will automatically accumulate

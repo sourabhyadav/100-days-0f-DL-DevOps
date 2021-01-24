@@ -53,3 +53,8 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Learnt about how to use pytorch loss and optimizer calss
 * Also understood how to initilize our on layers 
 * This is one the the most important lecture of the pytorch training
+
+### Day 12: Pytorch based Linear and Logistic Regression  
+* Learnt about different loss functions for both linear and logistic regrassion
+* Learnt about using datasets from sklearn to use for basic machine learning application
+
