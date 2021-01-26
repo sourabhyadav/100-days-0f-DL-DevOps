@@ -68,6 +68,6 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Found that when we work with multi-class classification problem should use softmax on logits and then CrossEntropy Loss, while for binary classificaiton problem we use Sigmoid on logits and then apply BCE Loss 
 * Note: Softmax will be performed internally when we use CrossEntropy loss, however, we need to apply sigmoid when we use BCE Loss 
 
-### Day 14: Pytorch Full-connect Neural Network
+### Day 15: Pytorch Full-connect Neural Network
 * Implemented a FC layer based NN from scratch in Pytorch
 * Performed training loop and accuracy stuff on our own
