@@ -62,3 +62,12 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Learnt about how we can inherit our dataset with Dataloader and Dataset methods
 * Learnt about use of dataset transfrom and how we can make custom tranforms and combine transforms using trochvision.transform class 
 
+### Day 14: Pytorch Softmax, Sigmoid, and Activation Functions  
+* Performed revision of the pytorch 
+* Introduction of softmax, sigmoid, BCE Loss, CrossEntropy Loss
+* Found that when we work with multi-class classification problem should use softmax on logits and then CrossEntropy Loss, while for binary classificaiton problem we use Sigmoid on logits and then apply BCE Loss 
+* Note: Softmax will be performed internally when we use CrossEntropy loss, however, we need to apply sigmoid when we use BCE Loss 
+
+### Day 14: Pytorch Full-connect Neural Network
+* Implemented a FC layer based NN from scratch in Pytorch
+* Performed training loop and accuracy stuff on our own
