@@ -70,4 +70,8 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 
 ### Day 15: Pytorch Full-connect Neural Network
 * Implemented a FC layer based NN from scratch in Pytorch
-* Performed training loop and accuracy stuff on our own
+* Performed training loop and accuracy stuff on our own   
+
+### Day 16: Pytorch CNN model building from scratch
+* Implemented a CNN model from scratch
+* Trained model on CFIR10 classification dataset
