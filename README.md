@@ -75,3 +75,7 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 ### Day 16: Pytorch CNN model building from scratch
 * Implemented a CNN model from scratch
 * Trained model on CFIR10 classification dataset
+
+### Day 17: Pytorch CNN model transfer learning
+* Used Transfer learning to train ResNet18 model on my custom dataset
+* Also learned about freezing the weights and prining the names of layers
