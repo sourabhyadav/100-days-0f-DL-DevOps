@@ -134,7 +134,7 @@ print("fc feature size: ", model.fc.in_features, " , ", model.fc.out_features)
 
 model.to(device)
 
-# check if the layers are freezed or not
+# check if the layers are freezed or not here only newly added FC should have nograd true
 for name, param in model.named_parameters():
     if param.requires_grad:
         print (name)

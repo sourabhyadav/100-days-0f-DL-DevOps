@@ -79,3 +79,9 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 ### Day 17: Pytorch CNN model transfer learning
 * Used Transfer learning to train ResNet18 model on my custom dataset
 * Also learned about freezing the weights and prining the names of layers
+
+### Day 18: Pytorch load and save model 
+* Understood different ways to save the model and load the model
+* Recommended way to save the model is using save_dict
+* With torch.save we can save any dictionary
+* Also we should be careful when you load and save the model on GPU

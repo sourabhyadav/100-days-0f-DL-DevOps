@@ -130,3 +130,5 @@ dmypy.json
 
 # Downloaded data
 pytorch-tuto/data/
+*.pth
+runs/*
