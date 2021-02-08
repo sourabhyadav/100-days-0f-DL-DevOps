@@ -84,4 +84,14 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Understood different ways to save the model and load the model
 * Recommended way to save the model is using save_dict
 * With torch.save we can save any dictionary
-* Also we should be careful when you load and save the model on GPU
+* Also we should be careful when you load and save the model on GPU  
+
+### Day 19: Pytorch and tensorboard
+* Learnt how to use tensorboard using pytorch
+* There is a summarywriter module in pytorch to put most of its stuff on tensorboard
+
+### Day 20: HSE University Course on Deep Learning in CV 
+* Learnt a bit about how human visual system works like rods cells are for brightness and con cells are for color info.
+* Rod and Con cells are not evenly distributed
+* Human visual system always focuses on very narrow region rather but it can switch very fast so that our brain perceives that everything is in focus
+* Color model like RGB, XYZ and YIQ model
