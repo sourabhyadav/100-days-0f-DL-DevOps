@@ -94,4 +94,9 @@ Summary of my learning in 100 days of DL and DevOps related stuff.
 * Learnt a bit about how human visual system works like rods cells are for brightness and con cells are for color info.
 * Rod and Con cells are not evenly distributed
 * Human visual system always focuses on very narrow region rather but it can switch very fast so that our brain perceives that everything is in focus
-* Color model like RGB, XYZ and YIQ model
+* Color model like RGB, XYZ and YIQ model  
+
+### Day 21: HSE University Course: CBIR using CNN 
+* Understood the basic introduction about sematic gaps in visual search
+* Understood difference between visual and semantic similarity
+* Understood about how indexing is done and came to know that CNN features can also be compressed
